@@ -1,5 +1,5 @@
+/*Найти минимальное значение*/
 package Java.Dz3;
-
 import java.util.ArrayList;
 import java.util.concurrent.ThreadLocalRandom;
 

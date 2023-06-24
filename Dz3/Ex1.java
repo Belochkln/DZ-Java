@@ -1,3 +1,4 @@
+/*Нужно удалить из него чётные числа*/
 package Java.Dz3;
 import java.util.ArrayList;
 import java.util.concurrent.ThreadLocalRandom;
