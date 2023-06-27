@@ -33,7 +33,7 @@ public class Ex1
             String tel = iScanner.nextLine();
             for(var item : mapname.entrySet())
             {
-                if (name == item.getKey())
+                if (name.equals(item.getKey()))
                 {
                     ArrayList<String> temp = new ArrayList<String>();
                     temp = item.getValue();
@@ -41,7 +41,7 @@ public class Ex1
                     {
                         String word = temp.get(i);
                         multipletel.add(word);
-                    } /*Не понимаю почему не заходит в этот if, а так код написан верно*/
+                    }
                 }
             }
             multipletel.add(tel);
